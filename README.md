@@ -2,4 +2,4 @@
 
 I have created Netflix Clone using HTML CSS(SCSS)
 
-    Project :-
+   Project :- https://vishawanath953.github.io/Netflix-Clone/
