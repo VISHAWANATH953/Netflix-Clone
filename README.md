@@ -1,5 +1,5 @@
 # Netflix-Clone
 
-I have created Netflix Clone useing HTML CSS(SCSS)
+I have created Netflix Clone using HTML CSS(SCSS)
 
     Project :-
