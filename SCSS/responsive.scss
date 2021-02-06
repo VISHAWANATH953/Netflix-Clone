@@ -1,0 +1,72 @@
+
+@media screen and (max-width:768px) {
+	body {
+		text-align: center !important;
+		overflow-x: hidden;
+	}
+	.main__div {
+		margin-top: 0;
+		height: 60vh !important;
+		&::after {
+			margin-top: 0;
+			height: 60vh !important;
+		}
+		&::before {
+			margin-top: 0;
+			height: 60vh !important;
+		}
+		.main__info {
+			margin-top: 10rem;
+			h5 {
+				font-size: 1.7rem !important;
+			}
+			h3 {
+				font-size: 3.5rem !important;
+				margin-bottom: 0.5rem !important;
+			}
+			button {
+				margin: 0 !important;
+				width: 20rem !important;
+				height: 3.5rem !important;
+				font-size: 2.5rem !important;
+			}
+		}
+		.netflix-logo {
+            width: 10rem !important;
+			margin: 0 0 0 1.5rem !important;
+			height: 4rem !important;
+			padding: 0 !important;
+		}
+		.navbar_div {
+			nav {
+				ul {
+					li {
+						button {
+							width: 8rem !important;
+							height: 3rem !important;
+							border-radius: .5rem !important;
+							padding: 0.5rem !important;
+							font-size: 1.5rem !important;
+							margin: 0 1rem 0 0 !important;
+						}
+					}
+				}
+			}
+		}
+	}
+	.enjoy {
+		margin-top: 0.5rem !important;
+		position: relative !important;
+		.enjoy__one {
+			z-index: 5 !important;
+		}
+	}
+	.watch {
+		.imgvideo {
+			width: inherit !important;
+		}
+	}
+	.enjoy__two {
+		margin: -1.5rem 0 0 0 !important;
+	}
+}
