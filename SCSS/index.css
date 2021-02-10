@@ -104,6 +104,9 @@ a:visited {
 }
 
 .main__div .navbar_div nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -140,6 +143,9 @@ a:visited {
 
 .main__div .main__info {
   margin: 20rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -187,6 +193,9 @@ a:visited {
   height: 60vh;
   background-color: #000;
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -235,6 +244,9 @@ a:visited {
   height: 60vh;
   background-color: #000;
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -258,6 +270,9 @@ a:visited {
   height: 60vh;
   background-color: #000;
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -297,6 +312,9 @@ a:visited {
 }
 
 .dropdowns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -322,6 +340,9 @@ a:visited {
   background-color: #303030;
   width: 80vw;
   height: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -360,6 +381,9 @@ footer {
   padding-top: 0.5rem;
   height: 25vh;
   background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -376,6 +400,9 @@ footer {
 
 footer .options {
   margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -385,6 +412,9 @@ footer .options {
 }
 
 footer .options .first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
@@ -394,6 +424,9 @@ footer .options .first {
 }
 
 footer .options .second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;

@@ -31,6 +31,7 @@
 	.navbar_div {
 		nav {
 			ul {
+				display: flex;
 				justify-content: space-between;
 				flex-flow: row nowrap;
 				position: relative;
@@ -60,6 +61,7 @@
 	}
 	.main__info {
 		margin: 20rem 0;
+		display: flex;
 		justify-content: center;
 		align-items: center;
 		position: relative;
@@ -96,7 +98,8 @@
 	padding-top: 0.5rem;
 	height: 60vh;
 	background-color: #000;
-	color: white;;
+	color: white;
+	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	flex-flow: row wrap;
@@ -121,7 +124,7 @@
 			}
 		}
 		.enjoy__two__video {
-			width: 0;
+            width: 0;
             height: 0;
 			video {
 				position: relative;
@@ -139,6 +142,7 @@
 	height: 60vh;
 	background-color: #000;
 	color: white;
+	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	flex-flow: row wrap;
@@ -154,6 +158,7 @@
 	height: 60vh;
 	background-color: #000;
 	color: white;
+	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	flex-flow: row wrap;
@@ -185,6 +190,7 @@
 	h1 {
 		margin: 0.5rem 0;
 	}
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-flow: column nowrap;
@@ -197,6 +203,7 @@
 		background-color: #303030;
 		width: 80vw;
 		height: 5vh;
+		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		flex-flow: row nowrap;
@@ -224,6 +231,7 @@ footer {
 	padding-top: 0.5rem;
 	height: 25vh;
 	background-color: #000;
+	display: flex;
 	align-items: center;
 	justify-content: flex-start;
 	flex-flow: column nowrap;
@@ -231,13 +239,16 @@ footer {
 	color: #303030;
 	.options {
 		margin-top: 1rem;
+		display: flex;
 		align-items: center;
 		justify-content: space-between;
 		.first {
+			display: flex;
 			align-items: flex-end;
 			justify-content: space-evenly;
 		}
 		.second {
+			display: flex;
 			align-items: flex-end;
 			justify-content: space-evenly;
 		}
